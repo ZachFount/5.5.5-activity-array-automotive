@@ -1,18 +1,20 @@
 class Vehicle {
-    constructor(make, model, color, price, vin) {
+    constructor(make, model, year, price, vin, color){
     this.make = make;
     this.model = model;
+    this.year = year
     this.color = color;
-    this .price = price;
-    this.vin  =  vin;
+    this.price = price;
+    this.vin = vin;
     }
+
 
     drive(){
-        return this.model + " " + "drives"
+        return this.color + ' ' + this.year + ' ' + this.make + ' ' + this.model + ' ' + 'drives'
     }
 
-    Paint(color){
-        return this.model = " " + "is GREEN"
+
+    paint(color){
+       return this.color = color;
     }
 }
-
