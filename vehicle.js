@@ -3,14 +3,14 @@ class Vehicle {
     this.make = make;
     this.model = model;
     this.year = year
+    this.vin = vin;
     this.color = color;
     this.price = price;
-    this.vin = vin;
     }
 
 
     drive(){
-        return this.color + ' ' + this.year + ' ' + this.make + ' ' + this.model + ' ' + 'drives'
+        return this.year + ' ' + this.make + ' ' + this.model + ' ' + 'drives'
     }
 
 
